@@ -17,7 +17,7 @@ int main()
    
    total = n1 + n2;
    avg = total/2.0;
-   printf("The average = %d" , avg);
+   printf("The average = %.2f\n" , avg);
   return 0;
 }
 
