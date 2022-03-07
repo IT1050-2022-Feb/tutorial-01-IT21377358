@@ -20,30 +20,35 @@ int main() {
    printf("%d ", multiply(no1, no2));
    return 0;
 }
-
 int minimum(int no1, int no2)
 {
    if(no1> no2)
-      minimum = no1;
-      return minimum;
+   {
+      return no1;
+   }
    else(no2>no1)
-      minimum = no2;
-      return minimum;
+    {
+      return no2;
+    }
 }
 
 int maximum(int no1, int no2)
 {
    if(no1> no2)
-      maximum = no1;
-      return maximum;
+   {
+      return  no1;
+      
+   }
    else(no2>no1)
-      maximum = no2;
-      return maximum;
+   {
+      return  no2;
+      
+   }
 }
 
 int  multiply(int no1, int  no2)
 {
-   multiply = no1 * no2;
-   return multiply;
+   return  no1 * no2;
+   
 }
 
